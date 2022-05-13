@@ -28,6 +28,7 @@ span:hover{
         width: 120px;
         height: 25px;
         font-size: 15px;
+        outline:none;
     }
     input[type="button"]{
         width: 80px;
