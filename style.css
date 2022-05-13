@@ -1,0 +1,52 @@
+.myCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+span:hover{
+    filter: brightness(1.5);
+}
+.task{
+    background-color: #eee;
+    width: 50%;
+}
+@media screen and (max-width:450px) 
+{
+    header{
+        width: 100%;
+        padding-left: 10px;
+        margin-bottom: 0;
+    }
+    input{
+        width: 120px;
+        height: 25px;
+        font-size: 15px;
+    }
+    input[type="button"]{
+        width: 80px;
+        font-size: 15px;
+        padding: 0;
+    }
+    .input{
+        width: 100%;
+        padding-left: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .task{
+        width: 90%;
+    }
+    span{
+        width: 25px;
+        height: 25px;
+        font-size: 15px;
+    }
+}
